@@ -1,5 +1,5 @@
 import express from "express";
-import { JobSource } from "./models/JobSource.js";
+import { Meetups } from "./models/Meetups.js";
 import { User } from "./models/Users.js";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
@@ -50,7 +50,7 @@ const decodeJwt = (token) => {
 };
 
 app.get("/", (req, res) => {
-  res.send("<h1>Job Manager API</h1>");
+  res.send("<h1>Meetups API</h1>");
 });
 
 app.post("/maintain-login", verifyToken, (req, res) => {
@@ -115,9 +115,9 @@ app.post("/login", async (req, res) => {
   }
 });
 
-app.get("/job-sources", async (req, res) => {
-  const jobSources = await JobSource.find();
-  res.status(200).json(jobSources);
+app.get("/meetups", async (req, res) => {
+  const meetups = await Meetups.find();
+  res.status(200).json(meetups);
 });
 
 app.listen(port, () => {

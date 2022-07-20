@@ -1,8 +1,10 @@
 import mongoose from "mongoose";
 
-const jobSourceSchema = new mongoose.Schema({
-  name: String,
-  url: String,
+const meetupSchema = new mongoose.Schema({
+  title: String,
+  imageUrl: String,
+  adress: String,
+  description: String,
 });
 
-export const JobSource = mongoose.model("job-source", jobSourceSchema);
+export const Meetup = mongoose.model("meetups", meetupSchema);
