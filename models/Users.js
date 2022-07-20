@@ -6,6 +6,7 @@ const userSchema = new mongoose.Schema({
   lastName: String,
   hash: String,
   accessGroups: [String],
+  favorites: [String],
 });
 
 export const User = mongoose.model("user", userSchema);

@@ -1,5 +1,5 @@
 import express from "express";
-import { Meetups } from "./models/Meetups.js";
+import { Meetup } from "./models/Meetups.js";
 import { User } from "./models/Users.js";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
@@ -116,7 +116,7 @@ app.post("/login", async (req, res) => {
 });
 
 app.get("/meetups", async (req, res) => {
-  const meetups = await Meetups.find();
+  const meetups = await Meetup.find();
   res.status(200).json(meetups);
 });
 
