@@ -17,7 +17,7 @@ import bcrypt from "bcrypt";
 dotenv.config();
 
 const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://localhost/bbc-job-manager-bcrypt";
+  process.env.MONGODB_URI || "mongodb://localhost/bbc-meetupgetup-mern";
 
 mongoose.connect(MONGODB_URI, (err) => {
   if (err) console.log(err);
@@ -26,7 +26,7 @@ mongoose.connect(MONGODB_URI, (err) => {
 const app = express();
 app.use(cors());
 app.use(express.json());
-const port = process.env.PORT || 30445;
+const port = process.env.PORT || 31456;
 
 const verifyToken = (req, res, next) => {
   const bearerHeader = req.headers["authorization"];
