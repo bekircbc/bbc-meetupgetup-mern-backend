@@ -1,0 +1,50 @@
+[
+  {
+    "title": "This is a first meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, 12345 Meetup City",
+    "description": "This is a first amazing meetup which you definitely should not miss."
+  },
+  {
+    "title": "Second meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, Paris",
+    "description": "This is a second amazing meetup which you definitely should not miss."
+  },
+  {
+    "title": "This is a third meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, Dresden",
+    "description": "This is a second amazing meetup which you definitely should not miss."
+  },
+  {
+    "title": "This is a fourth meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, Dortmund",
+    "description": "This is a second amazing meetup which you definitely should not miss."
+  },
+  {
+    "title": "This is a fifth meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, Düsseldorf",
+    "description": "This is a second amazing meetup which you definitely should not miss."
+  },
+  {
+    "title": "This is a sixth meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, Amsterdam",
+    "description": "This is a second amazing meetup which you definitely should not miss."
+  },
+  {
+    "title": "This is a seventh meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, Barcelona",
+    "description": "This is a second amazing meetup which you definitely should not miss."
+  },
+  {
+    "title": "This is a achth meetup",
+    "imageUrl": "https://picsum.photos/520/460",
+    "adress": "Meetupstreet5, Zürich",
+    "description": "This is a second amazing meetup which you definitely should not miss."
+  }
+]
