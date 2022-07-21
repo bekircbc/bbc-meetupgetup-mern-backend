@@ -7,13 +7,6 @@ import cors from "cors";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
-// const user = {
-//   id: 1,
-//   username: "hans",
-//   firstname: "Hans",
-//   lastname: "Richter",
-// };
-
 dotenv.config();
 
 const MONGODB_URI =
