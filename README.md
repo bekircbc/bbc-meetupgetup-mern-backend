@@ -1,3 +1,9 @@
+# Deployment
+
+- Meetup API is deployed to heroku.com
+
+- [https://bbc-meetupgetup-mern-backend.herokuapp.com/meetups]
+
 # Connection between MongoDB and server.js
 
 - models/JobSource.js
