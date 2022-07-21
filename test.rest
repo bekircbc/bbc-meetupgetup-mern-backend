@@ -1,7 +1,7 @@
-@url = http://localhost:31456
+@url = https://bbc-meetupgetup-mern-backend.herokuapp.com
  
 ## TEST
-GET {{url}}
+GET {{url}}/meetups
  
 ### LOGIN
 POST {{url}}/login
@@ -15,4 +15,4 @@ content-type: application/json
 ### MAINTAIN LOGIN
 POST {{url}}/maintain-login
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiaGFyb2xkIiwiZmlyc3ROYW1lIjoiSGFyb2xkIiwibGFzdE5hbWUiOiJGaW5jaCIsImFjY2Vzc0dyb3VwcyI6WyJsb2dnZWRJblVzZXJzIiwiam9iU2Vla2VycyJdfSwiaWF0IjoxNjU4NDAzMzY1LCJleHAiOjE2NTg0MDM0MTV9.pgfN3J81yTZxUC-IShBKTaziF9Q2LRg-oeIFzBgytFg
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiaGFyb2xkIiwiZmlyc3ROYW1lIjoiSGFyb2xkIiwibGFzdE5hbWUiOiJGaW5jaCIsImFjY2Vzc0dyb3VwcyI6WyJsb2dnZWRJblVzZXJzIiwiam9iU2Vla2VycyJdfSwiaWF0IjoxNjU4NDA4MjIwLCJleHAiOjE2NTg0MDgyNzB9.PZjO4O4FrJdYoRaNZyfyZYq8rVb7m-5mInnx2xXqcX0
